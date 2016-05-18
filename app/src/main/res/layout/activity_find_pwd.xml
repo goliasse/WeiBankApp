@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.weibank.com.weibankapp.FindPwdActivity">
+
+    <include
+        android:id="@+id/findpwd_topview"
+        layout="@layout/top_view_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/findpwd_topview"
+        android:background="@color/light_gray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/findpwd_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="5dp"
+                android:layout_gravity="center_vertical"
+                android:hint="@string/input_phone_number"
+                android:textSize="25sp"
+                android:singleLine="true"
+                android:maxLength="11"
+                android:inputType="phone"
+                android:background="@drawable/findpwd_bg"
+                android:textCursorDrawable="@drawable/cursor_color"/>
+
+            <EditText
+                android:id="@+id/findpwd_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="5dp"
+                android:layout_gravity="center_vertical"
+                android:hint="@string/input_pwd"
+                android:textSize="25sp"
+                android:singleLine="true"
+                android:maxLength="11"
+                android:inputType="number"
+                android:background="@drawable/findpwd_bg"
+                android:textCursorDrawable="@drawable/cursor_color"/>
+
+            <EditText
+                android:id="@+id/findpwd_pwda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="5dp"
+                android:layout_gravity="center_vertical"
+                android:hint="@string/input_pwda"
+                android:textSize="25sp"
+                android:singleLine="true"
+                android:maxLength="6"
+                android:inputType="number"
+                android:background="@drawable/findpwd_bg"
+                android:textCursorDrawable="@drawable/cursor_color"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/findpwd_valicode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:hint="@string/input_valicode"
+                    android:textSize="25sp"
+                    android:singleLine="true"
+                    android:maxLength="6"
+                    android:inputType="number"
+                    android:background="@drawable/findpwd_bg"
+                    android:textCursorDrawable="@drawable/cursor_color"/>
+
+                <Button
+                    android:id="@+id/findpwd_getvalicode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/get_valicode"
+                    android:textColor="@color/bottom_tabs_bg_color"
+                    android:background="@drawable/updatepwd_btn_bg" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

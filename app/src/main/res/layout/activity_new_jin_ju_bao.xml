@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context=".NewJinJuBaoActivity">
+
+    <include
+        android:id="@+id/topview"
+        layout="@layout/top_view_layout"/>
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topview"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <!--<include-->
+          <!--android:id="@+id/topview"  -->
+          <!--layout="@layout/top_view_layout"/>-->
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/yin_yellow">
+
+        <TextView
+        android:id="@+id/tvup_nomoredata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/nomoredata"
+        android:visibility="gone"
+        android:textSize="15sp"
+        android:textColor="@color/de_black"/>
+
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+
+        <TextView
+        android:id="@+id/tvdown_nomoredata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nomoredata"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:textSize="15sp"
+        android:textColor="@color/de_black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+        android:id="@+id/circle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        app:cpb_colors="@array/gplus_colors"/>
+    <!--<include-->
+        <!--layout="@layout/top_view_layout"/>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:background="@color/yin_yellow">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvup_nomoredata"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/nomoredata"-->
+            <!--android:visibility="gone"-->
+            <!--android:textSize="15sp"-->
+            <!--android:textColor="@color/de_black"/>-->
+
+        <!--<com.jcodecraeer.xrecyclerview.XRecyclerView-->
+            <!--android:id="@+id/recyclerview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:scrollbars="vertical"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvdown_nomoredata"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/nomoredata"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:visibility="gone"-->
+            <!--android:textSize="15sp"-->
+            <!--android:textColor="@color/de_black"/>-->
+    <!--</LinearLayout>-->
+</RelativeLayout>

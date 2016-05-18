@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">微银行</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+
+
+    <string name="enter">进入主界面</string>
+    <string name="shouye">首页</string>
+    <string name="wo">我</string>
+    <string name="mycount">我的账户</string>
+    <string name="hehuoren">合伙人</string>
+    <string name="shezhi">设置</string>
+    <string name="register_users">注册用户(人):938</string>
+    <string name="success_inverst">成功投资(￥):10000</string>
+    <string name="namea">郑***投资(￥):5000</string>
+    <string name="nameb">刘***投资(￥):500000</string>
+    <string name="jinjubao_shouyi">9%</string>
+    <string name="yinjubao_shouyi">35%</string>
+    <string name="wo_yuer">￥0.00</string>
+    <string name="zhanghu_yuer">账户余额(元)</string>
+    <string name="zhanghu_yuer_num">0.00</string>
+    <string name="leiji_shouyi">累计收益(元)</string>
+    <string name="leiji_shouyi_num">0.00</string>
+    <string name="wo_chongzhi">充值</string>
+    <string name="today_ticheng">— 今日提成(元) —</string>
+    <string name="hehuoren_ticheng_num">￥0.00</string>
+    <string name="hehuoren_leijiticheng">累计提成(元):0.00</string>
+    <string name="hehuoren_tuijian_1stgrade">推荐一级合伙人</string>
+    <string name="hehuoren_tuijian_2ndgrade">二级合伙人</string>
+    <string name="hehuoren_tuijian_2ndgrade_num">0人</string>
+    <string name="hehuoren_tuijian_3rdgrade">三级合伙人</string>
+    <string name="hehuoren_tuijian_3rdgrade_num">0人</string>
+    <string name="weibank_v">微银行V1.001</string>
+    <string name="shezhi_feiyong">资费说明</string>
+    <string name="shezhi_update">版本更新</string>
+    <string name="shezhi_phone">客户服务</string>
+    <string name="shezhi_abountus">关于我们</string>
+    <string name="shezhi_back">退出</string>
+    <string name="shezhi_updatepwd">修改密码</string>
+    <string name="old_pwd">旧&#160;&#160;&#160;&#160;密&#160;&#160;&#160;&#160;码:</string>
+    <string name="old_pwd_input">请输入旧密码</string>
+    <string name="new_pwd">新&#160;&#160;&#160;&#160;密&#160;&#160;&#160;&#160;码:</string>
+    <string name="new_pwd_input">请输入新密码</string>
+    <string name="ensure_new_pwd">确认新密码:</string>
+    <string name="ensure_new_pwd_input">请再次输入新密码</string>
+    <string name="account_phone">18217674018</string>
+    <string name="account_all_shouyi">总收益</string>
+    <string name="account_money">0.00</string>
+    <string name="leijishouyi">累计收益</string>
+    <string name="account_moneya">0.00</string>
+
+    <string name="chongzhijiner">充值金额</string>
+    <string name="input_chongzhijiner">请输入充值金额</string>
+    <string name="chongzhimianzhi">零元整</string>
+    <string name="input_name">请输入姓名</string>
+    <string name="input_id_card">请输入身份证号</string>
+    <string name="select_bank">请选择银行</string>
+    <string name="input_card_number">请输入银行卡号</string>
+    <string name="input_phone_number">请输入手机号</string>
+    <string name="input_open_bank">请输入开户行</string>
+    <string name="chongzhi">充值</string>
+    <string name="protocola">已阅读并同意</string>
+    <string name="protocolb">充值协议</string>
+    <string name="goumaihistory">购买历史</string>
+    <string name="clientservice_time">服务时间 9:30-17:30</string>
+    <string name="clientservice_hot_line">客服热线</string>
+    <string name="clientservice_phone">021-31233901</string>
+    <string name="phone_call">拨打</string>
+    <string name="today_shouyi">— 今日收益(元) —</string>
+    <string name="leijishouyi_money">累计收益(元):0.00</string>
+    <string name="ensure_update_pwd">确认修改</string>
+    <string name="name">您的姓名:</string>
+    <string name="bankname">银行名称:</string>
+    <string name="cardnumber">银行卡号:</string>
+    <string name="can_withdrawl_num">可提金额:</string>
+    <string name="withdrawl_num">提现金额:</string>
+    <string name="withdrawl_num_hint">贰元起取现</string>
+    <string name="moneycap">金额大写:</string>
+    <string name="ensure_withdrawl">确认提现</string>
+    <string name="wodegoumai">我的购买</string>
+    <string name="account_name">聂卫平</string>
+    <string name="touzhishouyi">投资收益</string>
+    <string name="jiangli_touzhishouyi">奖励收益</string>
+    <string name="hehuoren_touzhishouyi">合伙人收益</string>
+    <string name="phone_number">手&#160;&#160;机&#160;&#160;号</string>
+    <string name="new_phone_number">手机号码</string>
+    <string name="pwd">密&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;码</string>
+    <string name="input_pwd">请输入您的密码</string>
+    <string name="new_input_pwd">密码</string>
+    <string name="ensure_pwd">确认密码</string>
+    <string name="input_pwda">请再次输入您的密码</string>
+    <string name="valicode">验&#160;&#160;证&#160;&#160;码</string>
+    <string name="get_valicode">获取验证码</string>
+    <string name="input_valicode">请输入您的验证密码</string>
+    <string name="tuijianren">推&#160;&#160;荐&#160;&#160;人</string>
+    <string name="input_tuijianren">推荐人号码&#160;可为空</string>
+    <string name="agree_protocol">我同意&#171;微银行服务协议&#187;并接受该协议</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="loginaccount">账号:</string>
+    <string name="loginpwd">密码:</string>
+    <string name="forgetpwd">忘记密码&#063;</string>
+    <string name="yaoqinghaoyou">邀请好友</string>
+    <string name="rate">9.00&#037;</string>
+    <string name="rate_text">预期年化收益率</string>
+    <string name="yinjubao_term">银聚宝-第二期</string>
+    <string name="yinjubao_content">[1号]</string>
+    <string name="interest_and_inverst">即日起息 </string>
+    <string name="renchouzong">认筹中</string>
+    <string name="hot">热</string>
+    <string name="nomore">抢光了</string>
+    <string name="nomoredata">没有更多数据了</string>
+    <string name="shareyaoqinghaoyou">邀请好友扫描二维码下载微银行客户端</string>
+    <string name="shareto">分享到</string>
+    <string name="zero_money">(￥):零元整</string>
+    <string name="loading">加载中...</string>
+    <string name="bank_card">银行卡</string>
+    <string name="zhifumoney">请输入支付金额</string>
+    <string name="submmit">提交</string>
+    <string name="year_rate">年化收益率</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="transDate">交易时间:</string>
+    <string name="transAmount">交易数额:</string>
+    <string name="transTypeName">交易类型:</string>
+    <string name="transStatusName">交易状态:</string>
+    <string name="rate1">15</string>
+    <string name="rate2">.00&#037;</string>
+    <string name="interest1">即日起息&#044;</string>
+    <string name="interest_amount">100</string>
+    <string name="interest2">元起送</string>
+    <string name="number">3</string>
+    <string name="months">个月</string>
+    <string name="yitou">已投￥ </string>
+    <string name="money">10000 </string>
+    <string name="sms_validate">短信验证</string>
+    <string name="register_tv1">我同意</string>
+    <string name="register_tv2">&#171;微银行服务协议&#187;</string>
+    <string name="register_tv3">并接受该协议</string>
+    <string name="tip1">1.让好友用手机扫描下面二维码即可安装:</string>
+    <string name="tip2">2.还可以通过以下方式邀请好友:</string>
+    <string name="weibo">新浪微博</string>
+    <string name="data_load_failed">数据加载失败</string>
+    <string name="net_load_failed">网络或服务器延迟,请稍后再试</string>
+    <string name="flush_page">刷新页面</string>
+    <string name="check_net">检查网络</string>
+    <string name="scan_result_title">本次扫描结果:</string>
+
+    <string-array name="texts_sharefriends">
+        <item>新浪微博</item>
+        <item>腾讯QQ</item>
+        <item>QQ空间</item>
+        <item>微信好友</item>
+        <item>朋友圈</item>
+        <item>短信</item>
+    </string-array>
+
+    <integer-array name="images_sharefriends">
+        <item>@mipmap/new_weibo_sharefriends</item>
+        <item>@drawable/new_qq_sharefriends</item>
+        <item>@mipmap/new_weixin_sharefriends</item>
+        <item>@mipmap/new_weixinpyq_sharefriends</item>
+        <item>@mipmap/new_qqzone_sharefriends</item>
+        <item>@mipmap/new_sms_sharefriends</item>
+    </integer-array>
+
+    <string name="title_activity_enter_page">EnterPageActivity</string>
+    <string name="title_activity_first_or_not">FirstOrNotActivity</string>
+    <string name="title_activity_shou_ye">ShouYeActivity</string>
+    <string name="title_activity_wo">WoActivity</string>
+    <string name="title_activity_he_huo_ren">HeHuoRenActivity</string>
+    <string name="title_activity_she_zhi">SheZhiActivity</string>
+    <string name="title_activity_yin_ju_bao">YinJuBaoActivity</string>
+    <string name="title_activity_update_pwd">UpdatePwdActivity</string>
+    <string name="title_activity_client_service">ClientServiceActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_zi_fee">ZiFeeActivity</string>
+    <string name="title_activity_account_syxq">AccountSYXQActivity</string>
+    <string name="title_activity_lei_ji_shou_yi">LeiJiShouYiActivity</string>
+    <string name="title_activity_chong_zhi">ChongZhiActivity</string>
+    <string name="title_activity_withdraw_money">WithdrawMoneyActivity</string>
+    <string name="title_activity_wodegoumai">WodegoumaiActivity</string>
+    <string name="title_activity_trade_record">TradeRecordActivity</string>
+    <string name="title_activity_users_login">UsersLoginActivity</string>
+    <string name="title_activity_user_login">UserLoginActivity</string>
+    <string name="title_activity_jinjubao">JinjubaoActivity</string>
+    <string name="title_activity_share_friend">ShareFriendActivity</string>
+    <string name="title_activity_goumai_history">GoumaiHistoryActivity</string>
+    <string name="title_activity_select_bank">SelectBankActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_find_pwd">FindPwdActivity</string>
+    <string name="title_activity_first_h5">FirstH5Activity</string>
+    <string name="title_activity_second_h5">SecondH5Activity</string>
+    <string name="title_activity_zhi_fu">ZhiFuActivity</string>
+    <string name="title_activity_version_update">VersionUpdateActivity</string>
+    <string name="title_activity_third_h5">ThirdH5Activity</string>
+    <string name="title_activity_new_pull_to_refresh">NewPullToRefreshActivity</string>
+    <string name="title_activity_test_code">TestCodeActivity</string>
+    <string name="title_activity_new_jin_ju_bao">NewJinJuBaoActivity</string>
+    <string name="title_activity_new_yin_ju_bao">NewYinJuBaoActivity</string>
+    <string name="title_activity_test_interface">TestInterfaceActivity</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="title_activity_new_login">NewLoginActivity</string>
+    <string name="title_activity_new_register">NewRegisterActivity</string>
+    <string name="title_activity_new_share_friend">NewShareFriendActivity</string>
+    <string name="title_activity_loading_failed">LoadingFailedActivity</string>
+    <string name="title_activity_handle_code">HandleCodeActivity</string>
+    <string name="title_activity_hanle_code">HanleCodeActivity</string>
+</resources>

@@ -1,0 +1,4 @@
+include ':app', ':XRecyclerView', ':SmoothProgressbarCircular', ':SuperToasts'
+include ':ViewPagerIndicator'
+//include ':PullToRefreshSdk'
+include ':baofoosdk'

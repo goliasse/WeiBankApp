@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".NewLoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/childLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/new_login_back_rliv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true">
+
+            <!--<ImageView-->
+            <!--android:id="@+id/back_imageview"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:layout_marginLeft="30dp"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:src="@mipmap/abc_back_selected"-->
+            <!--android:background="@color/translent"/>-->
+            <RadioButton
+                android:id="@+id/back_rb_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/abc_back_selected"
+                android:button="@null"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/new_login_register_rltv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_centerInParent="true"
+                android:text="@string/register"
+                android:textColor="@color/shezhi_font_color"
+                android:textSize="25sp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/childLayout"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/translent"
+                android:src="@drawable/abc_logo_icon"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/phone_icon_selector"
+                android:button="@null"
+                android:checked="true"/>
+
+            <EditText
+                android:id="@+id/new_phone_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:textColor="@color/pgray"
+                android:textColorHint="@color/pgray"
+                android:textCursorDrawable="@null"
+                android:background="@null"
+                android:imeOptions="flagNoExtractUi"
+                android:hint="@string/new_phone_number"
+                android:maxLength="11"
+                android:singleLine="true"
+                android:inputType="phone"/>
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/pgreen"
+            android:button="@null"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/abc_pwd_selected"-->
+            <!--android:background="@color/translent"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginBottom="5dp"/>-->
+
+            <RadioButton
+                android:id="@+id/rbtwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/pwd_icon_selector"
+                android:button="@null"/>
+
+            <EditText
+                android:id="@+id/new_pwd_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:textColor="@color/pgray"
+                android:textCursorDrawable="@null"
+                android:background="@null"
+                android:hint="@string/new_input_pwd"
+                android:textColorHint="@color/pgray"
+                android:imeOptions="flagNoExtractUi"
+                android:maxLength="16"
+                android:singleLine="true"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+
+        <RadioButton
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/pgray"
+            android:button="@null"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp">
+
+            <Button
+                android:id="@+id/new_login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/abc_button_icon"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

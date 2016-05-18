@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".WithdrawMoneyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bottom_tabs_bg_color">
+
+        <include layout="@layout/top_view_layout"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/withdrawl_text_bg">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chongzhi_text_bg">
+
+                <TextView
+                    android:id="@+id/yourname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/name"
+                    android:textSize="25sp"
+                    android:textColor="@color/de_black"/>
+
+                <TextView
+                    android:id="@+id/truename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/yourname"
+                    android:inputType="text"
+                    android:textSize="25sp"
+                    android:textColor="@color/de_black"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/withdrawl_text_bg">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chongzhi_text_bg">
+
+                <TextView
+                    android:id="@+id/bankname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:inputType="text"
+                    android:text="@string/bankname"
+                    android:textSize="25sp"
+                    android:textColor="@color/de_black"/>
+
+                <TextView
+                    android:id="@+id/truebankname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/bankname"
+                    android:textSize="25sp"
+                    android:textColor="@color/de_black"/>
+            </RelativeLayout>
+        </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/withdrawl_text_bg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chongzhi_text_bg">
+
+            <TextView
+                android:id="@+id/cardnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/cardnumber"
+                android:textSize="25sp"
+                android:textColor="@color/de_black"/>
+
+            <TextView
+                android:id="@+id/truecardnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/cardnumber"
+                android:inputType="number"
+                android:textSize="25sp"
+                android:textColor="@color/de_black"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/withdrawl_text_bg">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chongzhi_text_bg">
+
+                <TextView
+                    android:id="@+id/can_withdrawl_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/can_withdrawl_num"
+                    android:textSize="25sp"
+                    android:textColor="@color/de_black"/>
+
+                <TextView
+                    android:id="@+id/truecan_withdrawl_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/can_withdrawl_num"
+                    android:textSize="25sp"
+                    android:text="@string/zero_money"
+                    android:textColor="@color/zhuang_yellow"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/withdrawl_text_bg">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chongzhi_text_bg">
+
+                <TextView
+                    android:id="@+id/withdrawl_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/withdrawl_num"
+                    android:textSize="25sp"
+                    android:textColor="@color/de_black"/>
+
+                <EditText
+                    android:id="@+id/truewithdrawl_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@null"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:layout_toRightOf="@id/withdrawl_num"
+                    android:singleLine="true"
+                    android:maxLength="15"
+                    android:hint="@string/withdrawl_num_hint"
+                    android:inputType="numberDecimal"
+                    android:textSize="25sp"
+                    android:textColor="@color/de_black"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/withdrawl_text_bg">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chongzhi_text_bg">
+
+                <TextView
+                    android:id="@+id/moneycap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/moneycap"
+                    android:textSize="25sp"
+                    android:textColor="@color/de_black"/>
+
+                <TextView
+                    android:id="@+id/truemoneycap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/moneycap"
+                    android:inputType="text"
+                    android:singleLine="false"
+                    android:textSize="12sp"
+                    android:textColor="@color/de_black"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/ensure_withdrawl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/clientservice_btn_bg"
+            android:textColor="@color/de_white"
+            android:textSize="20sp"
+            android:text="@string/ensure_withdrawl"/>
+    </LinearLayout>
+</LinearLayout>

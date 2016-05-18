@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f7f7f7">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/goumai_project"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yinjubao_term"
+            android:textColor="#4e8f49"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/goumai_project">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interest1"
+                android:textColor="#7da97a"/>
+
+            <TextView
+                android:id="@+id/interest_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interest_amount"
+                android:textColor="#7da97a"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interest2"
+                android:textColor="#7da97a"/>
+        </LinearLayout>
+        <!--<TextView-->
+        <!-- -->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/rate2"-->
+        <!--android:layout_toRightOf="@id/rate1"/>-->
+
+        <!--<TextView-->
+        <!-- -->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/rate_text"-->
+        <!--android:layout_below="@id/rate1"/>-->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/rate1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/rate1"
+            android:textColor="#e89080"/>
+
+        <TextView
+            android:id="@+id/goumai_rate_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/rate_text"
+            android:textColor="#e89080"
+            android:layout_below="@id/rate1"/>
+
+        <TextView
+            android:id="@+id/rate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rate2"
+            android:textColor="#e26b53"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/rate1"
+            android:layout_above="@id/goumai_rate_text"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/zhuangtaibg"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="@mipmap/zhuangtai_bg"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp">
+
+          <!--<TextView-->
+              <!--android:id="@+id/months"-->
+              <!--android:layout_width="wrap_content"-->
+              <!--android:layout_height="wrap_content"-->
+              <!--android:layout_centerInParent="true"-->
+              <!--android:text="@string/months"-->
+              <!--android:textColor="@color/de_white"/>-->
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:orientation="horizontal">
+
+              <TextView
+                android:id="@+id/months"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number"
+                android:textColor="@color/de_white"/>
+
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/months"
+                android:textColor="@color/de_white"/>
+          </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/touzhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/zhuangtaibg"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yitou"
+                android:textColor="#bbbaba"/>
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/money"
+                android:textColor="#bbbaba"/>
+        </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/touzhi"
+        android:background="#E3E3E3"/>
+</RelativeLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context=".NewYinJuBaoActivity">
+
+    <include
+        android:id="@+id/topview"
+        layout="@layout/top_view_layout"/>
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topview"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <!--<include-->
+          <!--android:id="@+id/topview"  -->
+          <!--layout="@layout/top_view_layout"/>-->
+
+        <LinearLayout
+        android:id="@+id/lltop_nomoredata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/bottom_tabs_bg_color">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/nomoredata"
+        android:textSize="15sp"
+        android:textColor="@color/de_black"/>
+        </LinearLayout>
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@id/lltop_nomoredata"-->
+        <!--android:background="@color/bottom_tabs_bg_color"-->
+        <!--android:orientation="vertical">-->
+
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+
+        <!--<TextView-->
+        <!--android:id="@+id/tvdown_nomoredata"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/nomoredata"-->
+        <!--android:visibility="gone"-->
+        <!--android:textSize="15sp"-->
+        <!--android:textColor="@color/de_black"/>-->
+        <!--</LinearLayout>-->
+        <LinearLayout
+        android:id="@+id/llbottom_nomoredata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/bottom_tabs_bg_color">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/nomoredata"
+        android:textSize="15sp"
+        android:textColor="@color/de_black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+        android:id="@+id/circle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        app:cpb_colors="@array/gplus_colors"/>
+    <!--<include-->
+        <!--layout="@layout/top_view_layout"/>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/lltop_nomoredata"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:background="@color/bottom_tabs_bg_color">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:visibility="gone"-->
+            <!--android:text="@string/nomoredata"-->
+            <!--android:textSize="15sp"-->
+            <!--android:textColor="@color/de_black"/>-->
+    <!--</LinearLayout>-->
+
+
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_below="@id/lltop_nomoredata"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@color/bottom_tabs_bg_color"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orientation="vertical">&ndash;&gt;-->
+
+        <!--<com.jcodecraeer.xrecyclerview.XRecyclerView-->
+            <!--android:id="@+id/recyclerview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:scrollbars="vertical"/>-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/tvdown_nomoredata"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="@string/nomoredata"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:visibility="gone"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textSize="15sp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textColor="@color/de_black"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+    <!--<LinearLayout-->
+        <!--android:id="@+id/llbottom_nomoredata"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:background="@color/bottom_tabs_bg_color">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:visibility="gone"-->
+            <!--android:text="@string/nomoredata"-->
+            <!--android:textSize="15sp"-->
+            <!--android:textColor="@color/de_black"/>-->
+    <!--</LinearLayout>-->
+</RelativeLayout>

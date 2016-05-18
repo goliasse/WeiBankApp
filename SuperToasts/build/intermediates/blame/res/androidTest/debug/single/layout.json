@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\superactivitytoast_button.xml",
+        "source": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\bundles\\debug\\res\\layout\\superactivitytoast_button.xml"
+    },
+    {
+        "merged": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\supercardtoast_progresshorizontal.xml",
+        "source": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\bundles\\debug\\res\\layout\\supercardtoast_progresshorizontal.xml"
+    },
+    {
+        "merged": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\supercardtoast_progresscircle.xml",
+        "source": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\bundles\\debug\\res\\layout\\supercardtoast_progresscircle.xml"
+    },
+    {
+        "merged": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dummy_layout.xml",
+        "source": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\bundles\\debug\\res\\layout\\dummy_layout.xml"
+    },
+    {
+        "merged": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\supercardtoast.xml",
+        "source": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\bundles\\debug\\res\\layout\\supercardtoast.xml"
+    },
+    {
+        "merged": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\supertoast.xml",
+        "source": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\bundles\\debug\\res\\layout\\supertoast.xml"
+    },
+    {
+        "merged": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\supercardtoast_button.xml",
+        "source": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\bundles\\debug\\res\\layout\\supercardtoast_button.xml"
+    },
+    {
+        "merged": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\superactivitytoast_progresscircle.xml",
+        "source": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\bundles\\debug\\res\\layout\\superactivitytoast_progresscircle.xml"
+    },
+    {
+        "merged": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\superactivitytoast_progresshorizontal.xml",
+        "source": "E:\\newsoftware\\androidpro\\WeiBankApp\\SuperToasts\\build\\intermediates\\bundles\\debug\\res\\layout\\superactivitytoast_progresshorizontal.xml"
+    }
+]

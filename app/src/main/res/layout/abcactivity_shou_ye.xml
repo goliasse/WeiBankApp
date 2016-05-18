@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".ShouYeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+           layout="@layout/top_view_layout"/>
+
+        <fragment
+        android:id="@+id/fragment_cycle_viewpager_content"
+        android:name="com.android.phone.lib.CycleViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shouye_smallword_bg">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+        android:id="@+id/regiter_users"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/register_users"
+        android:textSize="12sp"/>
+
+        <TextView
+        android:id="@+id/success_inverst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/success_inverst"
+        android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true">
+
+        <TextView
+        android:id="@+id/namea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="@string/namea"
+        android:textSize="12sp"/>
+
+        <TextView
+        android:id="@+id/nameb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/nameb"
+        android:textSize="12sp"/>
+        </LinearLayout>
+        </RelativeLayout>
+
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+           android:id="@+id/shouye_listview"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="10dp"
+           android:scrollbars="vertical">
+        </com.jcodecraeer.xrecyclerview.XRecyclerView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".NewRegisterActivity">
+
+    <LinearLayout
+        android:id="@+id/subLlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <RelativeLayout
+                android:id="@+id/new_register_back_rliv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:id="@+id/back_imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_centerInParent="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/abc_back_selected"
+                    android:background="@color/translent"/>
+                <!--<RadioButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:background="@mipmap/abc_back_selected"-->
+                <!--android:button="@null"/>-->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/new_login_back_rltv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginBottom="10dp">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@color/translent"-->
+                <!--android:src="@drawable/abc_logo_icon"-->
+                <!--android:layout_centerInParent="true"/>-->
+        <!--</RelativeLayout>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainLlayout"
+        android:layout_below="@id/subLlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!-- -->
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/new_register_back_rliv"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_centerVertical="true">-->
+
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:background="@color/translent"/>-->
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/new_login_back_rltv"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true">-->
+
+        <!--</RelativeLayout>-->
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_marginBottom="40dp">-->
+
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/translent"-->
+        <!--android:src="@mipmap/abc_logo_icon"-->
+        <!--android:layout_centerInParent="true"/>-->
+        <!--</RelativeLayout>-->
+
+        ///////////////////////////////////////////////////////////
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/phone_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/phone_icon_selector"
+                android:button="@null"
+                android:checked="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"/>
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/abc_phone_selected"-->
+            <!--android:background="@color/translent"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginBottom="5dp"/>-->
+
+            <EditText
+                android:id="@+id/new_phone_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/pgray"
+                android:textCursorDrawable="@null"
+                android:background="@null"
+                android:longClickable="false"
+                android:hint="@string/new_phone_number"
+                android:maxLength="11"
+                android:singleLine="true"
+                android:inputType="phone"/>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/phone_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/pgreen"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/pwd_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pwd_icon_selector"
+                android:button="@null"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"/>
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/abc_pwd_selected"-->
+            <!--android:background="@color/translent"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginBottom="5dp"/>-->
+
+            <EditText
+                android:id="@+id/new_registerpwd_eta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:background="@null"
+                android:longClickable="false"
+                android:hint="@string/new_input_pwd"
+                android:textColorHint="@color/pgray"
+                android:maxLength="16"
+                android:singleLine="true"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/pwd_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/pgray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/epwd_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pwd_icon_selector"
+                android:button="@null"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"/>
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/abc_pwd_selected"-->
+            <!--android:background="@color/translent"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginBottom="5dp"/>-->
+
+            <EditText
+                android:id="@+id/new_registerpwd_etb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:background="@null"
+                android:longClickable="false"
+                android:hint="@string/ensure_pwd"
+                android:textColorHint="@color/pgray"
+                android:maxLength="16"
+                android:singleLine="true"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/epwd_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/pgray"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/new_register_getvalicode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainLlayout"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:text="@string/get_valicode"
+        android:textColor="@color/pgray"
+        android:textSize="20sp"
+        android:background="@mipmap/abc_valicode_bg"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainLlayout"
+        android:layout_toLeftOf="@id/new_register_getvalicode"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/sms_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sms_icon_selector"
+            android:button="@null"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"/>
+        <!--<ImageView-->
+        <!--android:id="@+id/abc_sms"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/abc_sms_selected"-->
+        <!--android:background="@color/translent"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginBottom="5dp"/>-->
+
+
+        <EditText
+            android:id="@+id/new_registersms_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@null"
+            android:background="@null"
+            android:layout_toRightOf="@id/sms_rb"
+            android:longClickable="false"
+            android:hint="@string/sms_validate"
+            android:textColorHint="@color/pgray"
+            android:maxLength="6"
+            android:singleLine="true"
+            android:inputType="phone"/>
+
+        <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:background="@mipmap/abc_valicode_bg"/>-->
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/sms_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/new_register_getvalicode"
+        android:background="@color/pgray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sms_view"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/recommender_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/recommender_icon_selector"
+                android:button="@null"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"/>
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/abc_recommender_selected"-->
+            <!--android:background="@color/translent"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginBottom="5dp"/>-->
+
+            <EditText
+                android:id="@+id/new_registerrcd_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:background="@null"
+                android:longClickable="false"
+                android:hint="@string/input_tuijianren"
+                android:textColorHint="@color/pgray"
+                android:maxLength="11"
+                android:singleLine="true"
+                android:inputType="phone"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/recommender_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/pgray"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp">
+
+            <Button
+                android:id="@+id/new_register_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/abc_button_icon"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/new_agree_protocol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/register_tv1"/>
+
+            <TextView
+                android:id="@+id/new_protocol_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textColor="@color/pgreen"
+                android:text="@string/register_tv2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/register_tv3"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:layout_height="130dp"
+    android:background="@drawable/bg_gv">
+    <!--
+       android:background="@color/de_white"
+    -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/gridviewitem_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/wo_chongzhi_icon"/>
+
+        <TextView
+            android:id="@+id/gridviewitem_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gridviewitem_icon"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:text="@string/wo_chongzhi"/>
+    </RelativeLayout>
+</RelativeLayout>
+
+<!--<RelativeLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/de_white">-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="14dp"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_centerInParent="true">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/gridviewitem_icon"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:src="@mipmap/wo_chongzhi_icon"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/gridviewitem_text"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/gridviewitem_icon"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:textSize="25sp"-->
+            <!--android:text="@string/wo_chongzhi"/>-->
+    <!--</RelativeLayout>-->
+<!--</RelativeLayout>-->

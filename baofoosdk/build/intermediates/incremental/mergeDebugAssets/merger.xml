@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\newsoftware\androidpro\WeiBankApp\baofoosdk\src\main\assets"><file name="launch_guide.png" path="E:\newsoftware\androidpro\WeiBankApp\baofoosdk\src\main\assets\launch_guide.png"/><file name="not_found.png" path="E:\newsoftware\androidpro\WeiBankApp\baofoosdk\src\main\assets\not_found.png"/></source></dataSet><dataSet config="debug"><source path="E:\newsoftware\androidpro\WeiBankApp\baofoosdk\src\debug\assets"/></dataSet></merger>

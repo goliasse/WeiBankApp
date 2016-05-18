@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginBottom="5dp"
+    android:background="@color/an_gray">
+
+   <RelativeLayout
+       android:id="@+id/yinjubao_itemone"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+       android:layout_alignParentLeft="true">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/rate"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/rate"
+               android:textColor="@color/an_yellow"
+               android:textSize="30sp"/>
+
+           <TextView
+               android:id="@+id/yuqi_rate"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:text="@string/rate_text"
+               android:textColor="@color/an_yellow"
+               android:textSize="20sp"/>
+       </LinearLayout>
+   </RelativeLayout>
+
+    <RelativeLayout
+       android:id="@+id/yinjubao_itemtwo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="8dp"
+       android:layout_toRightOf="@id/yinjubao_itemone"
+       android:layout_centerVertical="true">
+
+       <View
+           android:id="@+id/yinjubao_line"
+           android:layout_width="1dp"
+           android:layout_height="30dp"
+           android:background="@color/de_green"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"/>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:layout_toRightOf="@id/yinjubao_line"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/yjb_term"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/yinjubao_term"
+               android:textColor="@color/de_green"
+               android:textSize="18sp"/>
+
+           <TextView
+               android:id="@+id/yjb_songqian"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:text="@string/interest_and_inverst"
+               android:textColor="@color/de_green"
+               android:textSize="18sp"/>
+       </LinearLayout>
+   </RelativeLayout>
+
+   <RelativeLayout
+       android:id="@+id/yjb_xs_bg"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:gravity="top"
+       android:layout_marginRight="5dp"
+       android:layout_marginTop="5dp"
+       android:background="@mipmap/zhuangtai_bg">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_centerInParent="true">
+
+           <TextView
+               android:id="@+id/renchouzong"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:textColor="@color/de_white"
+               android:text="@string/renchouzong"/>
+
+           <TextView
+               android:id="@+id/hot"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/de_white"
+               android:layout_gravity="center"
+               android:text="@string/hot"/>
+       </LinearLayout>
+   </RelativeLayout>
+</RelativeLayout>

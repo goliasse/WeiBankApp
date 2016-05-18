@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SmoothProgressbarCircular/SmoothProgressbarCircular.iml" filepath="$PROJECT_DIR$/SmoothProgressbarCircular/SmoothProgressbarCircular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SuperToasts/SuperToasts.iml" filepath="$PROJECT_DIR$/SuperToasts/SuperToasts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator/ViewPagerIndicator.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator/ViewPagerIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeiBankApp.iml" filepath="$PROJECT_DIR$/WeiBankApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XRecyclerView/XRecyclerView.iml" filepath="$PROJECT_DIR$/XRecyclerView/XRecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baofoosdk/baofoosdk.iml" filepath="$PROJECT_DIR$/baofoosdk/baofoosdk.iml" />
+    </modules>
+  </component>
+</project>

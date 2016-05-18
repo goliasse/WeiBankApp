@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bottom_tabs_bg_color">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="yellow">#ffff00</color>
+
+    <color name="df_gray">#efefef</color>
+    <color name="zhuang_yellow">#FFFF5E00</color>
+    <color name="xiangya_white">#FFF7F9F6</color>
+    <color name="an_yellow">#FFEC6B0F</color>
+    <color name="de_white">#FFFFFF</color>
+    <color name="de_gray">#EEEEEE</color>
+    <color name="de_black">#FF080707</color>
+    <color name="de_gray_white">#FFCFCFCA</color>
+    <color name="light_gray">#FFF5F5F5</color>
+    <color name="an_gray">#E3E3E3</color>
+    <color name="de_purple_red">#FFB139C4</color>
+    <color name="de_shen_yellow">#FF9E461A</color>
+    <color name="de_green">#FF67C439</color>
+    <color name="yin_yellow">#FFF2E6D5</color>
+    <color name="shezhi_font_color">#646464</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <drawable name="transparent">#00000000</drawable>
+
+    <color name="griditems_bg">#ffe8ecef</color>
+    <color name="commo_text_color">#ff333333</color>
+    <color name="line">#ffd3dde6</color>
+
+    <color name="cyan">#BA36A42A</color>
+    <color name="translent">#00000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#666666</color>
+    <color name="black_white">#f7f7f7</color>
+    <color name="pgray">#dcdcdc</color>
+    <color name="pgreen">#91c364</color>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+</resources>

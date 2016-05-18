@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="${relativePackage}.${activityClass}"
+    >
+    <!--
+      tools:context=".ZhiFuActivity"
+    -->
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/ipt_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:text="0.01"
+            android:inputType="numberDecimal">
+            <requestFocus />
+        </EditText>
+        <!--
+          android:hint="@string/zhifumoney"
+        -->
+
+        <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/ipt_money"
+            android:layout_alignBottom="@+id/ipt_money"
+            android:layout_toLeftOf="@+id/ipt_money"
+            android:text="金额" /> -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginTop="20dp" >
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:text="郑响响"/>
+        <!--
+         android:hint="@string/input_name"
+        -->
+        <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/EditText02"
+            android:layout_alignBottom="@+id/EditText02"
+            android:layout_toLeftOf="@+id/EditText02"
+            android:text="金额" /> -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="20dp" >
+
+        <EditText
+            android:id="@+id/id_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:text="342222199301302812" />
+
+        <!--
+          android:hint="@string/input_id_card"
+        -->
+        <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/EditText01"
+            android:layout_alignBottom="@+id/EditText01"
+            android:layout_toLeftOf="@+id/EditText01"
+            android:singleLine="true"
+            android:text="卡号" /> -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bank_name_layout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/bank_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="中国建设银行"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <!--
+      android:hint="@string/select_bank"
+    -->
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bank_name_layout"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true" >
+
+        <EditText
+            android:id="@+id/bank_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:text="6227001633010677193"
+            android:inputType="numberDecimal" />
+    </RelativeLayout>
+    <!--
+      android:hint="@string/input_card_number"
+    -->
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout6"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true" >
+
+        <EditText
+            android:id="@+id/mobile_ed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:text="13023063971"
+            android:inputType="numberDecimal" />
+    </RelativeLayout>
+    <!--
+      android:hint="@string/input_phone_number"
+    -->
+
+    <Button
+        android:id="@+id/btn_submit_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="68dp"
+        android:text="@string/submmit"
+        android:textSize="20sp"/>
+</RelativeLayout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.weibank.com.weibankapp.WoActivity">
+
+    <include
+        android:id="@+id/top_view"
+        layout="@layout/top_view_layout"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@mipmap/wo_beinjing">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="55dp">
+
+                <!--<com.circleimageview.CircleImageView-->
+                    <!--android:id="@+id/wo_logo"-->
+                    <!--android:layout_width="120dp"-->
+                    <!--android:layout_height="80dp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:src="@mipmap/tuijian_weibank_logo"/>-->
+
+                <ImageView
+                   android:id="@+id/wo_logo"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:background="@color/translent"
+                   android:src="@mipmap/new_abc_logo"/>
+
+                <TextView
+                    android:id="@+id/wo_yuer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:text="@string/wo_yuer"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/wo_simibg"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_zhanghuyuer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:text="@string/zhanghu_yuer"/>
+
+                    <TextView
+                        android:id="@+id/zhuanhu_yuer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:text="@string/zhanghu_yuer_num"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_leijishouyi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:text="@string/leijishouyi"/>
+
+                    <TextView
+                        android:id="@+id/leiji_shouyi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:text="@string/leiji_shouyi_num"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/de_gray"
+            android:layout_weight="1">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:scrollbars="none">
+
+                <com.weibank.com.weibankapp.views.DefineGridView
+                    android:id="@+id/wo_gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:verticalSpacing="0.0dip"
+                    android:horizontalSpacing="0.0dip"
+                    android:cacheColorHint="#00000000"
+                    android:listSelector="@null"
+                    android:soundEffectsEnabled="true"
+                    android:smoothScrollbar="true"
+                    android:stretchMode="columnWidth"
+                    android:numColumns="2"
+                    android:gravity="center"
+                    android:layout_alignParentBottom="true">
+                </com.weibank.com.weibankapp.views.DefineGridView>
+
+                <!--<GridView-->
+                    <!--android:id="@+id/wo_gridview"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:verticalSpacing="0.0dip"-->
+                    <!--android:horizontalSpacing="0.0dip"-->
+                    <!--android:cacheColorHint="#00000000"-->
+                    <!--android:listSelector="@null"-->
+                    <!--android:soundEffectsEnabled="true"-->
+                    <!--android:smoothScrollbar="true"-->
+                    <!--android:stretchMode="columnWidth"-->
+                    <!--android:numColumns="2"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_alignParentBottom="true">-->
+                <!--</GridView>-->
+            </ScrollView>
+            <!--
+               android:verticalSpacing="1dp"
+                android:horizontalSpacing="1dp"
+            -->
+        </RelativeLayout>
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/de_gray"-->
+            <!--android:layout_weight="1">-->
+
+            <!--<GridView-->
+                <!--android:id="@+id/wo_gridview"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:verticalSpacing="1dp"-->
+                <!--android:horizontalSpacing="1dp"-->
+                <!--android:cacheColorHint="#00000000"-->
+                <!--android:listSelector="@null"-->
+                <!--android:soundEffectsEnabled="true"-->
+                <!--android:smoothScrollbar="true"-->
+                <!--android:stretchMode="columnWidth"-->
+                <!--android:numColumns="2"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_alignParentBottom="true">-->
+            <!--</GridView>-->
+        <!--</RelativeLayout>-->
+    </TableLayout>
+</LinearLayout>

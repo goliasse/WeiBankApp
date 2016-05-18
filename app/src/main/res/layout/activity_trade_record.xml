@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context=".TradeRecordActivity">
+
+    <include
+        android:id="@+id/traderecord_topview"
+        layout="@layout/top_view_layout"/>
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/rlup_topview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/traderecord_topview"-->
+        <!--android:background="@color/bottom_tabs_bg_color">-->
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/nomoredata"-->
+            <!--android:textSize="15sp"/>-->
+    <!--</RelativeLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/bottom_tabs_bg_color"-->
+        <!--android:layout_below="@id/rlup_topview"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ListView-->
+            <!--android:id="@+id/goumai_list"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+        <!--</ListView>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/down_nomoredata"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/nomoredata"-->
+            <!--android:textSize="15sp"/>-->
+    <!--</LinearLayout>-->
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/yin_yellow"
+        android:visibility="gone"
+        android:layout_below="@id/traderecord_topview"
+        android:scrollbars="vertical"/>
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+        android:id="@+id/circle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        app:cpb_colors="@array/gplus_colors"/>
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".YinJuBaoActivity">
+
+    <include
+        android:id="@+id/yinjubao_topview"
+        layout="@layout/top_view_layout"/>
+
+    <LinearLayout
+        android:id="@+id/lltop_nomoredata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/yinjubao_topview"
+        android:background="@color/bottom_tabs_bg_color">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="@string/nomoredata"
+            android:textSize="15sp"
+            android:textColor="@color/de_black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lltop_nomoredata"
+        android:background="@color/bottom_tabs_bg_color"
+        android:orientation="vertical">
+
+        <!--<ListView-->
+            <!--android:id="@+id/yinjubao_listview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/yin_yellow">-->
+        <!--</ListView>-->
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/recylerview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@color/yin_yellow">-->
+        <!--</android.support.v7.widget.RecyclerView>-->
+        <!--<com.handmark.pulltorefresh.library.PullToRefreshListView-->
+            <!--xmlns:ptr="http://schemas.android.com/apk/res-auto"-->
+            <!--android:id="@+id/pulltorefreshview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/yin_yellow"-->
+            <!--android:cacheColorHint="#00000000"-->
+            <!--android:divider="#19000000"-->
+            <!--android:dividerHeight="4dp"-->
+            <!--android:visibility="visible"-->
+            <!--android:fadingEdge="none"-->
+            <!--android:fastScrollEnabled="false"-->
+            <!--android:footerDividersEnabled="false"-->
+            <!--android:headerDividersEnabled="false"-->
+            <!--ptr:ptrMode="both"-->
+            <!--android:smoothScrollbar="true">-->
+        <!--</com.handmark.pulltorefresh.library.PullToRefreshListView>-->
+
+        <TextView
+            android:id="@+id/tvdown_nomoredata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/nomoredata"
+            android:visibility="gone"
+            android:textSize="15sp"
+            android:textColor="@color/de_black"/>
+    </LinearLayout>
+</RelativeLayout>

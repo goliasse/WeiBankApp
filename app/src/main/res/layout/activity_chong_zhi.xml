@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.weibank.com.weibankapp.ChongZhiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bottom_tabs_bg_color">
+
+        <include layout="@layout/top_view_layout"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/chongzhijiner"
+            android:textColor="@color/de_black"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/chongzhi_text_bg">
+
+            <EditText
+                android:id="@+id/input_chongzhijiner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:textCursorDrawable="@null"
+                android:textSize="25sp"
+                android:singleLine="true"
+                android:maxLength="6"
+                android:inputType="numberDecimal"
+                android:hint="@string/input_chongzhijiner"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/chongzhimianzhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/chongzhimianzhi"
+            android:textSize="25sp"
+            android:singleLine="true"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/chongzhi_text_bg">
+
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:textCursorDrawable="@null"
+                android:textSize="25sp"
+                android:singleLine="true"
+                android:hint="@string/input_name"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/chongzhi_text_bg">
+
+            <EditText
+                android:id="@+id/input_id_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:textCursorDrawable="@null"
+                android:textSize="25sp"
+                android:singleLine="true"
+                android:maxLength="18"
+                android:inputType="number"
+                android:hint="@string/input_id_card"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/input_chongzhi_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/chongzhi_text_bg">
+
+            <TextView
+                android:id="@+id/select_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp"
+                android:singleLine="true"
+                android:inputType="number"
+                android:text="@string/select_bank"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/chongzhi_text_bg">
+
+            <EditText
+                android:id="@+id/input_card_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:textCursorDrawable="@null"
+                android:textSize="25sp"
+                android:singleLine="true"
+                android:maxLength="19"
+                android:inputType="number"
+                android:hint="@string/input_card_number"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/chongzhi_text_bg">
+
+            <EditText
+                android:id="@+id/input_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:textCursorDrawable="@null"
+                android:textSize="25sp"
+                android:maxLength="11"
+                android:singleLine="true"
+                android:inputType="number"
+                android:hint="@string/input_phone_number"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/chongzhi_text_bg">
+
+            <EditText
+                android:id="@+id/input_open_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:textCursorDrawable="@null"
+                android:textSize="25sp"
+                android:singleLine="true"
+                android:hint="@string/input_open_bank"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/chongzhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/clientservice_btn_bg"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/chongzhi"
+            android:textSize="25dp"
+            android:textColor="@color/de_white"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <CheckBox
+                android:id="@+id/chongzhiradiobtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/protocola"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/an_yellow"
+                android:text="@string/protocolb"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
